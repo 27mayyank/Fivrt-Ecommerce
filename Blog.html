@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Fivrt Dashboard</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="Blog.css">
+</head>
+<body>
+ <header class="navbar">
+    <div class="logo">Fivrt</div>
+    <nav class="nav-links">
+      <a href="Main.html">Home</a>
+      <a href="Shop.html">Shop</a>
+      <a href="Blog.html">Blog</a>
+      <a href="About.html">About</a>
+      <a href="ContactUs.html">Contact Us</a>
+      <a href="#" class="cart-link" title="View Cart">
+        <img src="Images/shopping-bag.png" class="cart" alt="Cart">
+      </a>
+    </nav>
+  </header>
+
+   <section class="hero">
+    <h1>#readmore</h1>
+    <p>Read all case studies about our products!</p>
+  </section>
+
+<section class="blog-section">
+  <h2>Latest from the Blog</h2>
+
+  <div class="blog-page" id="page1">
+    <div class="blog-post">
+      <img src="Images/Blog/b4 (1).jpg" alt="Blog 1">
+      <div class="blog-content">
+        <h3>Streetwear That Speaks</h3>
+        <p>FIVRT isn’t just about fashion — it’s about making a statement. 
+            Our streetwear is designed to reflect individuality, confidence, and culture. 
+            Every piece is a voice, every outfit a message. Discover how we turn everyday
+             wear into bold self-expression.</p>
+      </div>
+    </div>
+
+    <div class="blog-post">
+      <img src="Images/Blog/b1.jpg" alt="Blog 2">
+      <div class="blog-content">
+        <h3>Behind the Drop</h3>
+        <p>Ever wondered what goes into a FIVRT collection? From mood boards to final fittings, we take you behind the scenes of our latest drop. 
+            Meet the designers, see the sketches, and witness the creative chaos that fuels our fashion.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="blog-page" id="page2" style="display: none;">
+    <div class="blog-post">
+      <img src="Images/Blog/b2 (1).jpg" alt="Blog 3">
+      <div class="blog-content">
+        <h3>FIVRT x Community</h3>
+        <p>We believe in building more than a brand — we’re building a movement. 
+            FIVRT collaborates with local artists, creators, and changemakers to uplift voices and spark change. 
+            Explore how our community-first approach shapes everything we do.</p>
+      </div>
+    </div>
+
+    <div class="blog-post">
+      <img src="Images/Blog/b3.jpg" alt="Blog 4">
+      <div class="blog-content">
+        <h3>Style Guide 2025</h3>
+        <p>Not sure how to style your FIVRT fits? We’ve got you. 
+            Our 2025 Style Guide breaks down the latest trends, layering tips, and must-have combos to help you own your look with confidence. 
+            Streetwear just got smarter.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="pagination">
+    <button class="page-btn active" onclick="showPage(1)">1</button>
+    <button class="page-btn" onclick="showPage(2)">2</button>
+  </div>
+</section>
+  
+    <!-- Newsletter Section -->
+  <section class="newsletter">
+    <div class="newsletter-left">
+      <h2>Sign up for Newsletters</h2>
+      <p class="subtext">Get email updates from us</p>
+    </div>
+    <div class="newsletter-right">
+      <input type="email" placeholder="Your email address" />
+      <button>Sign Up</button>
+    </div>
+  </section>
+
+  <!-- Footer -->
+<footer class="custom-footer">
+  <!-- Social Media Section -->
+  <div class="footer-social">
+    <span>Get connected with us on social networks:</span>
+    <div class="social-icons">
+      <a href="#"><i class="fab fa-facebook-f"></i></a>
+      <a href="#"><i class="fab fa-twitter"></i></a>
+      <a href="#"><i class="fab fa-google"></i></a>
+      <a href="#"><i class="fab fa-instagram"></i></a>
+      <a href="#"><i class="fab fa-linkedin"></i></a>
+      <a href="#"><i class="fab fa-github"></i></a>
+    </div>
+  </div>
+
+  <!-- Footer Links -->
+  <div class="footer-content">
+    <div class="footer-column">
+      <h4>FIVRT</h4>
+      <div class="underline"></div>
+      <p>Discover fashion that fits your vibe</p>
+    </div>
+    <div class="footer-column">
+      <h4>Products</h4>
+      <div class="underline"></div>
+      <ul>
+        <li><a href="#">T-Shirts</a></li>
+        <li><a href="#">Hoodies</a></li>
+        <li><a href="#">Accessories</a></li>
+        <li><a href="#">Limited Editions</a></li>
+      </ul>
+    </div>
+    <div class="footer-column">
+      <h4>Useful Links</h4>
+      <div class="underline"></div>
+      <ul>
+        <li><a href="#">Your Account</a></li>
+        <li><a href="#">Affiliate</a></li>
+        <li><a href="#">Shipping</a></li>
+        <li><a href="#">Help</a></li>
+      </ul>
+    </div>
+    <div class="footer-column">
+      <h4>Contact</h4>
+      <div class="underline"></div>
+      <ul>
+        <li><i class="fas fa-home"></i> Bangalore, India</li>
+        <li><i class="fas fa-envelope"></i> support@fivrt.com</li>
+        <li><i class="fas fa-phone"></i> +91 98765 43210</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Copyright -->
+  <div class="footer-bottom">
+    © 2025 FIVRT. All rights reserved.
+  </div>
+</footer>
+  <script src="Blog.js"> </script>
+</body>
+
+
+  
