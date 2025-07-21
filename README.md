@@ -13,7 +13,7 @@ Welcome to the official repository for **FIVRT**, a basic frontend-only eCommerc
 ## 🛠️ Technologies Used
 - HTML5
 - CSS3
-- JavaScript (Vanilla)
+- JavaScript
 
 ## 📬 Feedback
 The blog page includes a feedback form for user suggestions and comments.
